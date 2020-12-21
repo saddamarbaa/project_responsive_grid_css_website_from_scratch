@@ -1,0 +1,40 @@
+/*====== Start creating My own Framework for some repeated styles(Main Rulez) ======*/
+
+/* CSS Variables */
+:root {
+  --primary: #ddd;
+  --dark: #333;
+  --light: #fff;
+  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+html {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--dark);
+}
+
+body {
+  background-color: #ccc;
+  margin: 30px 5px;
+  line-height: 1.4;
+}
+
+.btn {
+  background-color: var(--dark);
+  color: var(--light);
+  padding: 0.6rem 1.3rem;
+  text-decoration: none;
+  border: 0;
+}
+
+img {
+  max-width: 100px;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 20px;
+}
+
+/*====== End Framework ======*/
