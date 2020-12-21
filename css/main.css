@@ -91,7 +91,7 @@ img {
 .showcase {
   grid-area: showcase;
   min-height: 400px;
-  background: url(/imges/showcase.jpg);
+  background: url(../imges/showcase.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
