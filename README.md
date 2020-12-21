@@ -1,2 +1,1 @@
-# responsive-grid-css-website-layout-from-scratch-
-Build a Responsive Grid CSS Website Layout From Scratch
+# Build a Responsive Grid CSS Website From Scratch using modern CSS features and techniques like css variables, rem units and flexbox
