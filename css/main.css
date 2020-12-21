@@ -107,7 +107,7 @@ img {
   color: var(--light);
 }
 
-/* TOP BOX */
+/* TOP BOX ( part of Top Container) */
 
 .top-box {
   background-color: var(--primary);
@@ -133,3 +133,16 @@ img {
 /*====== End Top Container ======*/
 
 /* ====== Start Boxes Section ======*/
+
+.boxes {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.boxes .box {
+  background-color: var(--primary);
+  text-align: center;
+  padding: 1.5rem 2rem;
+  box-shadow: var(--shadow);
+}
