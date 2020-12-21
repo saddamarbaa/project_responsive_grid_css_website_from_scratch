@@ -174,3 +174,16 @@ img {
 }
 
 /* ====== End Portfolio ======*/
+
+/* ====== Start footer ======*/
+
+footer {
+  margin-top: 2rem;
+  background-color: var(--dark);
+  color: var(--light);
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+/* ====== End footer ======*/
