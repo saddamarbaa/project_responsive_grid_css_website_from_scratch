@@ -160,4 +160,17 @@ img {
   padding: 3rem;
 }
 
-/* ====== End Info Section- ======*/
+/* ====== Start Portfolio ======*/
+
+.portfolio {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.portfolio img {
+  width: 100%;
+  box-shadow: var(--shadow);
+}
+
+/* ====== End Portfolio ======*/
