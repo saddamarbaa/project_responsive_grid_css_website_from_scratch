@@ -38,3 +38,31 @@ img {
 }
 
 /*====== End Framework ======*/
+
+/*====== End Navigation ======*/
+
+.main-nav ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding: 0;
+  list-style: none;
+}
+.main-nav a {
+  background-color: var(--primary);
+  display: block;
+  text-decoration: none;
+  padding: 0.8rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  color: var(--dark);
+  box-shadow: var(--shadow);
+}
+
+.main-nav a:hover {
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+/*====== End Navigation ======*/
