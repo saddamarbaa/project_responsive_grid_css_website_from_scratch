@@ -1,3 +1,10 @@
+/* ==========================================
+   main.css
+   These are the final styles for the project.
+   Author:   Saddam Arbaa
+   Website:  TODO
+			========================================== */
+
 /*====== Start Main Rules ======*/
 
 /* CSS Variables */
@@ -49,6 +56,7 @@ img {
   padding: 0;
   list-style: none;
 }
+
 .main-nav a {
   background-color: var(--primary);
   display: block;
@@ -187,3 +195,46 @@ footer {
 }
 
 /* ====== End footer ======*/
+
+/* ====== Start Media Queries(Add a Breakpoint) ======*/
+
+/* If the screen size is 700px or less */
+
+@media only screen and (max-width: 700px) {
+  .top-container {
+    grid-template-areas:
+      "showcase showcase"
+      "top-box-a  top-box-b";
+  }
+
+  .showcase h1 {
+    font-size: 2.5rem;
+  }
+
+  .main-nav ul {
+    grid-template-columns: 1fr;
+  }
+
+  .info {
+    grid-template-columns: 1fr;
+  }
+
+  .info .btn {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+/* If the screen size is 500px or less */
+
+@media (max-width: 500px) {
+  .top-container {
+    grid-template-areas:
+      "showcase"
+      "top-box-a"
+      "top-box-b";
+  }
+}
+
+/* ====== End Media Queries ======*/
