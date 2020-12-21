@@ -1,6 +1,7 @@
-/*====== Start creating My own Framework for some repeated styles(Main Rulez) ======*/
+/*====== Start Main Rules ======*/
 
 /* CSS Variables */
+
 :root {
   --primary: #ddd;
   --dark: #333;
@@ -16,7 +17,7 @@ html {
 
 body {
   background-color: #ccc;
-  margin: 30px 5px;
+  margin: 30px 50px;
   line-height: 1.4;
 }
 
@@ -37,9 +38,9 @@ img {
   grid-gap: 20px;
 }
 
-/*====== End Framework ======*/
+/*====== End Main Rules ======*/
 
-/*====== End Navigation ======*/
+/*====== Start Navigation ======*/
 
 .main-nav ul {
   display: grid;
@@ -106,10 +107,29 @@ img {
   color: var(--light);
 }
 
+/* TOP BOX */
+
+.top-box {
+  background-color: var(--primary);
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+}
+
+.top-box .price {
+  font-size: 2.5rem;
+}
+
 .top-box-a {
   grid-area: top-box-a;
 }
+
 .top-box-b {
   grid-area: top-box-b;
 }
+
 /*====== End Top Container ======*/
+
+/* ====== Start Boxes Section ======*/
