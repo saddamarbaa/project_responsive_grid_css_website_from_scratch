@@ -2,7 +2,7 @@
 Project: Build a Responsive Grid CSS Website From Scratch With Modern CSS features and Techniques like CSS Variables,em units and Flexbox
 
 
-Click the link blow to see the [GitHub Pages]: (https://saddamarbaa.github.io/responsive-grid-css-website-from-scratch/)
+Click the link blow to see the [GitHub Pages]: (https://saddamarbaa.github.io/project_responsive_grid_css_website_from_scratch/)
 
 
 ![image](https://user-images.githubusercontent.com/51326421/102787914-6285dd80-43d4-11eb-9d58-4cae82f059f3.png)
